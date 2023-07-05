@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .banner{
+width: 100%;
+height: 100vh;
+background: url(./nature\ 003.jpg) no-repeat center/cover;
+    }
+    .navbar{
+margin: auto;
+display: flex;
+align-items: center;
+}
+.logo{
+    
+color: white;
+flex :1;
+margin-left: auto;
+padding-left: 30px;
+}
+.collection{
+    display: flex;
+    gap: 30px;
+}
+.ite{
+    list-style: none;
+    color: rgb(197, 202, 29);
+}
+
+.item{
+    list-style: none;
+    color: white;
+    padding-right: 30px;
+}
+.green{
+color: rgb(15, 107, 15);
+margin-left: auto;
+padding-left: 70px;
+}
+.title{
+color: white;
+margin-top: 100px;
+margin-left: 5%;
+font-size: 60px;
+}
+.info{
+margin-left: 5%;
+padding: 10px;
+margin-bottom: 20px;
+color: rgb(255, 250, 250);
+}
+.btn{
+margin-left: 5%;
+padding: 10px;
+border-radius: 15px;
+background-color: green;
+color: white;
+border: none;
+}
+.li{
+width: 100%;
+height: 120px;
+background-color: rgb(136, 175, 31);
+list-style: none;
+}
+.ul{
+    color: white;
+    margin-left: auto;
+    padding-left: 30px;
+}
+.ol{
+    color: white;
+    margin-left: auto;
+    padding-left: 30px;
+}
+.smm{
+    margin-left: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+}
